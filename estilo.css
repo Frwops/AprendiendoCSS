@@ -4,3 +4,9 @@
 [rancio="Sii"]{
     color: green;
 }
+.contact-form__input--active{
+    color: blue;
+}
+.contact-form__input:hover{
+    color:blueviolet;
+}
