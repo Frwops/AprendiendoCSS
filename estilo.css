@@ -1,12 +1,33 @@
+*{
+    /* esto es para sacar los valores por defecto de los navegadores */
+    padding: 0px;
+    margin: 0px;
+}
+
 #element:hover {
     color: red;
 }
 [rancio="Sii"]{
     color: green;
+    font-size: 5mm;
 }
 .contact-form__input--active{
     color: blue;
 }
 .contact-form__input:hover{
     color:blueviolet;
+}
+
+.unidades-form{
+    font-size: 16px;
+}
+.unidades-form__p{
+    font-size: 10mm;
+}
+
+.unidades-form__p--active{
+    font-size: 1em;
+    background-color: aqua;
+    width: 50vw;
+    height: 100vh;
 }
